@@ -1,5 +1,13 @@
+@import url(//db.onlinewebfonts.com/c/5c8036fec9d614a90b202dbe1c3b8395?family=Stick-A-RoundW00-Stick-A-Round);
+
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 img {
@@ -10,6 +18,31 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navbar ul li a {
+  padding: 1rem;
+  color: red;
+  text-decoration: none;
+}
+
+.showcase {
+  display: flex;
+  background: url(../images/walls_nl_header-1382974-jpg.jpg.ulenscale.1440x360.jpg)
+    no-repeat center/cover;
+  height: 440px;
+  color: #fff;
+}
+
+.showcase h1 {
+  font-size: 3rem;
+  padding: 60px;
 }
 
 .main-menu {
@@ -32,6 +65,7 @@ img {
 }
 
 .product {
+  display: flex;
   flex: 0 0 25%;
   border: 1px solid goldenrod;
 }
@@ -61,6 +95,8 @@ img {
 
 .discover-wrapper {
   display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .discover {
@@ -68,9 +104,39 @@ img {
   background-color: yellow;
 }
 
+.discover h2 {
+  color: red;
+}
+
+.article-gluten {
+  display: flex;
+  background: url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/global/general_image/spoon_640x640-1390623-jpg.jpg.ulenscale.320x200.jpg")
+    no-repeat top left / cover;
+  height: 265px;
+  width: 430px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.article-kids {
+  display: flex;
+  background: url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/global/general_image/ice_cream/out_of_home_ice_cream/walls_c52_relatedarticles_girls-1052897-jpg.jpg.ulenscale.320x200.jpg")
+    no-repeat top left / cover;
+  height: 265px;
+  width: 430px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 .footer {
   display: flex;
   background-color: red;
   text-align: center;
   font-size: 40px;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
 }
